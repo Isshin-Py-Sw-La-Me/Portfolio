@@ -1,11 +1,10 @@
 /.ipynb_checkpoints
-	/.virtual_documents/
-	/battery_log_cleansing.ipynb
-	/battery_search.ipynb
-	/bs_final.ipynb
-	/bs_memo.ipynb
-	/datasets/
-	/result.jpg
-	/static_pra/
-	/tempaltes.jpg
-	/tempaltes.png
+/.virtual_documents
+/battery_log_cleansing.ipynb
+/battery_search.ipynb
+/bs_final.ipynb
+/bs_memo.ipynb
+datasets
+/result.jpg
+/tempaltes.jpg
+/tempaltes.png
