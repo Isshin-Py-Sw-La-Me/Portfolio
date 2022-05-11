@@ -1,0 +1,15 @@
+select
+    hobby,
+    group_concat(name order by id separator ',') as name_list
+from (
+    select id,name,hobby1 as hobby from employees
+    union all
+    select id,name,hobby2 from employees
+    union all
+    select id,name,hobby3 from employees
+) hobby_table
+where
+    hobby is not null
+group by
+    hobby
+;
